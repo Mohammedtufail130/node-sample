@@ -27,6 +27,10 @@ app.get('/',(req,res)=>{
     })
 })
 
+app.get('/sample',(req,res)=>{
+    res.send("App is running...!")
+})
+
 app.listen(8000, () => {
     console.log("Server is listening on port http://localhost:8000");
 })
